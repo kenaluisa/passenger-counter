@@ -1,0 +1,63 @@
+body{
+    background-image: url(/img/img1-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+h2{
+    color: rgb(247, 246, 246);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+button{
+    border: none;
+    color: rgb(13, 13, 13);
+    padding: 10px 20px; 
+    font-weight: bold;
+    font-size: 20px; 
+    border-radius: 5px;
+    margin: 20px auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 2px solid rgba(34, 25, 25, 0.794);
+    width: 200px;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+}
+.container{
+    max-width: 50%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(12, 12, 12);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#save-btn{
+    background-color: rgb(97, 215, 97);
+}
+#increment-btn{
+    background-color: rgb(179, 71, 191);
+}
+p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
